@@ -1,0 +1,20 @@
+---
+grumphp:
+  extensions:
+    - ComposerDanglingLockedDeps\GrumPHP\Loader
+  ascii:
+    succeeded: ~
+    failed: ~
+  tasks:
+    jsonlint: ~
+    xmllint: ~
+    yamllint: ~
+    composer: ~
+    securitychecker_enlightn: ~
+    composer_normalize: ~
+    composer_dangling_locked_deps: ~
+    phpmnd: ~
+    phpcs:
+      standard: PSR12
+    phpstan:
+      level: max
